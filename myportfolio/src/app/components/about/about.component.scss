@@ -1,25 +1,32 @@
-h3{
+h1{
     text-align: center;
-    color: Green;
+    color: maroon;
+    font-style: italic;
+    display: block;
+    font-size: 25px;
+    padding-top: 15px;
   }
   p{
     text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 30%;
+    padding-right: 30%;
   }
   * {
       margin: 0;
   }
   html, body {
       height: 100%;
+      background-color: yellowgreen;
   }
   .wrapper {
-      padding-top: 5%;
       min-height: 100%;
-      height: auto !important;
+    //   height: auto !important;
       height: 100%;
-      margin: 0 auto -142px;
+    //   margin: 0 auto -142px;
+      color: white;
+      font-size: 20px;
+      font-family: monospace;
   }
-  .footer, .push {
-      height: 142px;
+.push {
+    height: 225px;
   }

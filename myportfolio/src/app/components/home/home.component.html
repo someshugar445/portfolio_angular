@@ -1,21 +1,19 @@
-<h1>My Projects</h1>
-<div class="row">
-<!-- {% for project in projects %} -->
-    <div class="col-md-4">
-        <div class="card mb-2">
-            <div class="projects">
-            <img style = "width:20%; height:20%" alt="Automation" class="automation" src="assets/img/robot.jpg">
-            <img style = "width:20%; height:20%" alt="Novels Library" class="books" src="assets/img/books.jpg">
-            <img style = "width:20%; height:20%" alt="Resume Builder" class="resume" src="assets/img/resume.jpg">
+<h1>PROJECTS</h1>
+<div class="projects">
+    <!-- <div> -->
+        <button (click)="animate()">Automation</button>
+        <div [@myanimation]="state1" class="rotate">
+            <img src="assets/img/robot.jpg" width="300" height="200">
         </div>
-            <!-- <img class="card-img-top" src="{% static project.image %}"> -->
-            <div class="card-body">
-                <!-- <h5 class="card-title">{{ project.title }}</h5>
-                <p class="card-text">{{ project.description }}</p> -->
-                <!-- <a href="{% url 'project_detail' project.pk %}" -->
-                   <!-- class="btn btn-primary"> -->
-                    <!-- Read More -->
-                <!-- </a> -->
-            </div>
+        <button (click)="animate2()">Novels Library</button>
+        <div [@myanimation]="state2" class="rotate">
+            <img src="assets/img/books.jpg" width="300" height="200">
         </div>
-    </div>
+        <button (click)="animate3()">Resume builder</button>
+        <div [@myanimation]="state3" class="rotate">
+            <img src="assets/img/resume.jpg" width="300" height="200">
+        </div>
+        <div class="push"></div>
+    <!-- </div> -->
+</div>
+<div><div class="home-ext"></div></div>
