@@ -6,11 +6,11 @@ h1{
 }
 .projects{
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   // max-width: 80%;
-  margin: 0 auto;
+  // margin: 0 auto;
   background: #A0C5E8;
-  padding: 5px 0;
+  // padding: 5px 0;
   height:100%;
 }
 .projects button{
@@ -24,10 +24,21 @@ h1{
   border:none;
   margin-left: 10px;
 }
-.footer, .push {
-  height: 300px;
-}
 .home-ext{
   height: 300px;
   background-color: #A0C5E8;
+}
+.rotate {
+  width:50%;
+}
+.rotate p{
+  font-family: monospace;
+  width:85%;
+  color:maroon;
+  font-weight: bold;
+}
+.rotate a{
+  font-family: monospace;
+  font-weight: bold;
+  color: blue;
 }
